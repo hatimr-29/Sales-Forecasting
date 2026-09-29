@@ -1,0 +1,232 @@
+/* Google Font */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg,#eef5ff,#dbe9ff);
+
+    overflow:hidden;
+
+}
+
+/* LEFT PANEL */
+
+.left-panel{
+
+    background:linear-gradient(135deg,#f7fbff,#e4efff);
+
+}
+
+.welcome-box{
+
+    width:85%;
+
+}
+
+.logo{
+
+    width:90px;
+
+    height:90px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#356dff,#6848ff);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:40px;
+
+    box-shadow:0 15px 35px rgba(53,109,255,.35);
+
+}
+
+.welcome-box h1{
+
+    font-size:52px;
+
+    font-weight:700;
+
+    margin-top:30px;
+
+    color:#1f2d3d;
+
+}
+
+.welcome-box p{
+
+    color:#6c757d;
+
+    font-size:18px;
+
+}
+
+.dashboard-image{
+
+    width:420px;
+
+    margin-top:30px;
+
+}
+
+.feature-box{
+
+    margin-top:30px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:18px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.feature-box div{
+
+    text-align:center;
+
+}
+
+.feature-box i{
+
+    color:#356dff;
+
+    font-size:28px;
+
+    margin-bottom:8px;
+
+}
+
+/* LOGIN CARD */
+
+.login-card{
+
+    width:520px;
+
+    background:white;
+
+    border-radius:22px;
+
+    padding:50px;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+}
+
+.login-card h2{
+
+    text-align:center;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+.login-card h2 i{
+
+    color:#356dff;
+
+}
+
+.input-group-text{
+
+    background:white;
+
+    border-right:none;
+
+}
+
+.form-control{
+
+    border-left:none;
+
+    height:52px;
+
+}
+
+.form-control:focus{
+
+    box-shadow:none;
+
+}
+
+.login-btn{
+
+    margin-top:20px;
+
+    height:52px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:linear-gradient(90deg,#356dff,#6848ff);
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.login-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(53,109,255,.4);
+
+}
+
+a{
+
+    text-decoration:none;
+
+}
+
+@media(max-width:992px){
+
+.left-panel{
+
+display:none;
+
+}
+
+.login-card{
+
+width:95%;
+
+padding:35px;
+
+}
+
+body{
+
+overflow:auto;
+
+}
+
+}

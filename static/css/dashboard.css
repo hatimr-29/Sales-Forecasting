@@ -1,0 +1,254 @@
+/* ==========================
+   Google Font
+========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+/* ==========================
+   Navbar
+========================== */
+
+.navbar{
+    background:#1F2937 !important;
+    padding:15px 30px;
+}
+
+.navbar-brand{
+    font-size:26px;
+    font-weight:700;
+}
+
+.nav-link{
+    color:white !important;
+    margin-right:18px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#38BDF8 !important;
+}
+
+.nav-link.active{
+    color:#38BDF8 !important;
+}
+
+/* ==========================
+   Success Alert
+========================== */
+
+.alert{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+/* ==========================
+   Dashboard Cards
+========================== */
+
+.dashboard-card{
+
+    border:none;
+
+    border-radius:18px;
+
+    transition:.4s;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.dashboard-card .card-body{
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+.dashboard-card h6{
+
+    color:#777;
+
+    margin-top:18px;
+
+}
+
+.dashboard-card h3{
+
+    font-weight:700;
+
+    margin:8px 0;
+
+}
+
+/* ==========================
+   Icons
+========================== */
+
+.icon{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:auto;
+
+    font-size:28px;
+
+    color:white;
+
+}
+
+.purple{
+
+    background:#7C3AED;
+
+}
+
+.blue{
+
+    background:#2563EB;
+
+}
+
+.green{
+
+    background:#16A34A;
+
+}
+
+.orange{
+
+    background:#EA580C;
+
+}
+
+/* ==========================
+   Chart Cards
+========================== */
+
+.card{
+
+    border:none;
+
+    border-radius:18px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.card-body{
+
+    padding:25px;
+
+}
+
+/* ==========================
+   Table
+========================== */
+
+.table{
+
+    margin-top:15px;
+
+}
+
+.table thead{
+
+    background:#2563EB;
+
+    color:white;
+
+}
+
+.table th{
+
+    border:none;
+
+}
+
+.table td{
+
+    vertical-align:middle;
+
+}
+
+/* ==========================
+   Footer
+========================== */
+
+footer{
+
+    font-size:15px;
+
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media(max-width:992px){
+
+.navbar-nav{
+
+    text-align:center;
+
+}
+
+.dashboard-card{
+
+    margin-bottom:20px;
+
+}
+
+}
+
+/* ==========================
+   Forecasting Custom Styles
+========================== */
+.form-range::-webkit-slider-thumb {
+    background: #3b82f6;
+}
+.form-range::-moz-range-thumb {
+    background: #3b82f6;
+}
+.form-control:focus, .form-select:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 0.25rem rgba(59, 130, 246, 0.15);
+}
+.avatar-sm {
+    font-size: 12px;
+    font-weight: 600;
+}
+.badge {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 12px;
+}
